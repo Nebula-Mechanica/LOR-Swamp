@@ -2,7 +2,7 @@
 
 @-moz-document domain("linux.org.ru")
 {
-  html,body, .ui-menu-item
+  html,body, .ui-menu-item, .tracker-item
   {
     background-color: #D9DAC6 !important;
   }
@@ -13,14 +13,14 @@
   }
 
   body, #bd h1, #bd h2, .hideon-tablet, #bd .forum table th,
-pre code, #bd .forum table thead, #bd .forum table tfoot, #bd fieldset legend
+pre code, #bd .forum table thead, #bd .forum table tfoot, #bd fieldset legend, .tracker-src
   {
     color: #00000d !important;
   }
 
   a, #bd h2 *, #bd .sign a, #bd .sign a:visited, #bd .forum table tbody td *,
 #bd .forum table tbody td a.secondary:visited,
-.message-table .tag, .group-label
+.message-table .tag, .group-label, .tracker-tags .tag, .tracker-last, .tracker-count
   {
     color: #0000AD !important;
   }
@@ -162,9 +162,18 @@ pre code, #bd .forum table thead, #bd .forum table tfoot, #bd fieldset legend
     background-color: #3F77FF;
   }
 
-  .message-table .tag, .group-label
+  .message-table .tag, .group-label, .tracker-tags .tag
   {
     background-color: #C7CBB1 !important;
+  }
+  
+  .group-label, .tracker-tags .tag {
+    border-radius: 3px !important;
+  }
+  
+  .group-label {
+    font-weight: normal !important;
+    padding: 2px 4px !important;;
   }
 
   #bd .forum table tbody tr:hover .tag, #related-topics-list .group-label, #tag-page-news .group-label , #tag-page-forum .group-label
