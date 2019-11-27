@@ -13,7 +13,7 @@
   }
 
   body, #bd h1, #bd h2, .hideon-tablet, #bd .forum table th,
-pre code, #bd .forum table thead, #bd .forum table tfoot, #bd fieldset legend, .tracker-src
+pre code, #bd .forum table thead, #bd .forum table tfoot, #bd fieldset legend, .tracker-src, #realtime
   {
     color: #00000d !important;
   }
@@ -117,7 +117,7 @@ pre code, #bd .forum table thead, #bd .forum table tfoot, #bd fieldset legend, .
     color: #95FF8F !important;
   }
 
-  .infoblock, .boxlet, article, #bd .news, #tag-page-forum, #tag-page-news, #related-topics-list
+  .infoblock, .boxlet, article, #bd .news, #tag-page-forum, #tag-page-news, #related-topics-list, #realtime
   {
     background-color: #C7CBB1 !important;
     border-radius: 10px !important;
