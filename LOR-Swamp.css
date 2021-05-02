@@ -233,6 +233,10 @@ pre code, #bd .forum table thead, #bd .forum table tfoot, #bd fieldset legend, .
     border: 1px solid #606090 !important;
   }
 
+  blockquote {
+    color: #3c3c3c !important;      
+  }
+
   pre .comment,pre .template_comment,pre .diff .header,pre .doctype,pre .pi,pre .lisp .string,pre .javadoc,pre .pragma
   {
     color: #606090 !important;
